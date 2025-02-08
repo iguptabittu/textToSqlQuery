@@ -30,16 +30,6 @@ The model was fine-tuned using the Hugging Face `transformers` library. The trai
 
 To use this model, you'll need to install the following libraries:
 
-```bash
-pip install transformers datasets torch
-
-### Dataset
-
-The dataset consists of three columns:
-
-- **Question**: A natural language question regarding a specific table or database schema.
-- **Context**: A SQL `CREATE TABLE` statement representing the structure of a table.
-- **Answer**: A valid SQL query answering the question based on the given context.
 
 ### Objective
 
