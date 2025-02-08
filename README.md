@@ -60,7 +60,7 @@ pip install transformers datasets torch
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/fine-tune-t5-sql.git
+git clone https://github.com/yiguptabittu/textToSqlQuery.git
 ```
 
 2. **Run the Jupyter notebook** to fine-tune the T5 model:
@@ -102,8 +102,4 @@ tokenizer.save_pretrained('fine_tuned_t5')
 
 ---
 
-### License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
 
