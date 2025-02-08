@@ -3,6 +3,36 @@
 
 This repository contains a Jupyter notebook for fine-tuning the T5 (Text-to-Text Transfer Transformer) model to generate SQL queries based on natural language questions and corresponding contexts (SQL `CREATE TABLE` statements).
 
+
+## Dataset
+
+The dataset consists of 76,000 rows with the following columns:
+
+- **question**: A natural language question.
+- **context**: SQL table schema or context.
+- **answer**: The corresponding SQL query.
+
+The dataset is used to fine-tune a pre-trained T5 model to generate SQL queries from the given questions and context.
+
+## Model Training
+
+The model was fine-tuned using the Hugging Face `transformers` library. The training process took 3 epochs with the following training and validation losses:
+
+| Epoch | Training Loss | Validation Loss |
+|-------|---------------|-----------------|
+| 1     | 0.060200      | 0.042623        |
+| 2     | 0.053100      | 0.034916        |
+| 3     | 0.048400      | 0.033216        |
+
+## Setup and Usage
+
+### Prerequisites
+
+To use this model, you'll need to install the following libraries:
+
+```bash
+pip install transformers datasets torch
+
 ### Dataset
 
 The dataset consists of three columns:
