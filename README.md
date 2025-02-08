@@ -1,6 +1,4 @@
-Here's the content for the `README.md` file based on the description provided:
 
-```markdown
 # Fine-Tuning T5 for SQL Query Generation
 
 This repository contains a Jupyter notebook for fine-tuning the T5 (Text-to-Text Transfer Transformer) model to generate SQL queries based on natural language questions and corresponding contexts (SQL `CREATE TABLE` statements).
@@ -109,9 +107,3 @@ tokenizer.save_pretrained('fine_tuned_t5')
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
 
-### Instructions:
-- Copy the content above into a `README.md` file in the root directory of your repository.
-- Replace `yourusername` with your GitHub username in the cloning instruction URL.
-- Customize any parts of the readme as necessary to fit your use case or requirements.
-
-This `README.md` will give users a clear overview of the repository, its purpose, and how to use the code to fine-tune the T5 model. Let me know if you'd like to make any changes!
